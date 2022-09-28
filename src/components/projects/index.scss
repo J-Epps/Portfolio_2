@@ -1,0 +1,35 @@
+.container-project {
+  position: relative;
+  top: 50%;
+  left: 25%;
+
+ .project-container {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    .projects {
+      background: yellow;
+      position: relative;
+      margin: 15px;
+      float: left;
+      width: 42%;
+      height: 200px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      overflow:hidden;
+      justify-content: space-around;
+
+      .img {
+        object-fit: scale-down;
+        object-fit: scale-down;
+        object-position: -10% 0;
+        object-fit: none;
+        object-fit: fill;
+      }
+    }
+  }
+}
